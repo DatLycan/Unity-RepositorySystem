@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Sirenix.Utilities;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
@@ -24,7 +23,7 @@ namespace DatLycan.Packages.RepositorySystem {
                 if (objects.Length > 1) 
                     Debug.LogWarning($"Multiple instances of {type.Name} found. Ensure only one asset exists in the project.");
 
-                if (objects.IsNullOrEmpty()) 
+                if (objects.Length == 0) 
                     Debug.LogError($"No instance of {type.Name} found. Ensure the asset exists in the project.");
 
                 repo = objects.FirstOrDefault() as IRepository;
