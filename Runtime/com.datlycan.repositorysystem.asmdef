@@ -1,0 +1,14 @@
+{
+    "name": "com.datlycan.repositorysystem",
+    "rootNamespace": "DatLycan.Packages.RepositorySystem",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
