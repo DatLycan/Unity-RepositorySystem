@@ -12,7 +12,7 @@ namespace DatLycan.Packages.RepositorySystem {
 
         public T Repository {
             get {
-                if (cachedRepository == null || repositoryAssemblyQualifiedName != typeof(T).AssemblyQualifiedName) {
+                if (cachedRepository == null || repositoryAssemblyQualifiedName != cachedRepository.GetType().AssemblyQualifiedName) {
                     repositoryAssemblyQualifiedName ??= typeof(T).AssemblyQualifiedName;
                     var repositoryType = Type.GetType(repositoryAssemblyQualifiedName) 
                                          ?? throw new InvalidOperationException($"Type '{typeof(T).Name}' not found.");
