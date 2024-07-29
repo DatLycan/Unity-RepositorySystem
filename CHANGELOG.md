@@ -5,4 +5,4 @@
 
 ## [1.0.1] - 2024-07-29
 ### Second Release
-- Fixed RepositoryManager ScriptableObject
+- Fixed RepositoryManager ScriptableObject handling
