@@ -1,6 +1,6 @@
 {
   "name": "com.datlycan.repositorysystem",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Repository System",
   "description": "Centralized data storage system ensuring efficient and scalable data interaction.",
   "unity": "2022.3",
